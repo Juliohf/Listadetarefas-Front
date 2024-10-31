@@ -1,0 +1,78 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  color: #333; /* Cinza escuro para um visual minimalista */
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd; /* Linha sutil abaixo do título */
+  padding-bottom: 10px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+h1:hover {
+  color: #555; /* Leve mudança de cor no hover */
+  border-color: #aaa; /* Bordas mais escuras no hover */
+}
+.highlight {
+  background-color: yellow;
+}
+/* TabelaItems.css */
+
+.container {
+  max-width: 800px; /* Limita a largura da tabela e do formulário */
+  margin: 0 auto; /* Centraliza o container na tela */
+  padding: 20px; /* Adiciona espaço interno */
+  border: 1px solid #ccc; /* Borda em volta do container */
+  border-radius: 8px; /* Bordas arredondadas */
+  background-color: #f9f9f9; /* Cor de fundo clara */
+}
+
+form {
+  display: flex; /* Flexbox para alinhamento dos inputs */
+  flex-direction: column; /* Coloca os inputs em coluna */
+  margin-bottom: 20px; /* Espaçamento abaixo do formulário */
+}
+
+input,
+button {
+  margin: 5px 0; /* Espaçamento entre os elementos do formulário */
+  padding: 10px; /* Espaçamento interno dos inputs e botões */
+  border: 1px solid #ccc; /* Borda nos inputs */
+  border-radius: 4px; /* Bordas arredondadas */
+}
+
+table {
+  width: 100%; /* Faz a tabela ocupar 100% do container */
+  border-collapse: collapse; /* Colapsa bordas da tabela */
+}
+
+th,
+td {
+  padding: 8px; /* Espaçamento interno das células da tabela */
+  text-align: left; /* Alinhamento do texto */
+  border-bottom: 1px solid #ddd; /* Borda inferior nas células */
+}
+
+tr.highlight {
+  background-color: #f9c2c2; /* Cor de fundo para itens destacados */
+}
+
+button {
+  cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+  background-color: #4caf50; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão do botão */
+}
+
+.table-row {
+  transition: transform 0.2s ease-in-out;
+}
+
+.table-row.up {
+  transform: translateY(-10px);
+}
+
+.table-row.down {
+  transform: translateY(10px);
+}
